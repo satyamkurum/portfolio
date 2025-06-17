@@ -22,9 +22,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatflixy"
-              description="Utilized React.js to create an interactive, responsive user interface, allowing, real time communication. Implemented state management using React hooks and context API to handle user sessions. Firebase Realtime Database to manage and sync chat data. Ensured efficient data retrieval and rendering through optimized API calls and component rendering Implemented Firebase Authentication to enable secure user login and used database to store data"
-              ghLink="https://github.com/satyamkurum/chatflixy.0"
+              title="Ai Powered Resume Shortlisting"
+              description="Put Resume and Job Descrition and check whether this profile is fit or not for the job role."
+              ghLink="https://github.com/satyamkurum/AIpowered_Resume_Shortlisting"
             />
           </Col>
 
@@ -32,9 +32,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="BookHub"
-              description="Built an intuitive user interface with React.js, enabling users to browse, purchase, and list books for sale. Utilized React Router for smooth navigation and component-based architecture for modular development. Focused on delivering a seamless user experience by optimizing page load times, implementing responsive design.Firebase for secure, real-time data storage and retrieval, handling user authentication, book listings. Implemented Firestore to manage and query a scalable database for efficient data processing.."
-              ghLink="https://github.com/satyamkurum/bookhub"
+              title="Customer_Churn_Prediction"
+              description="The Customer Churn Prediction System is a machine learning project aimed at identifying customers who are likely to stop using a service or subscription. The goal is to help businesses proactively address churn and improve customer retention."
+              ghLink="https://github.com/satyamkurum/Customer_Churn_Prediction"
              
             />
           </Col>
@@ -43,9 +43,11 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Admin Dashboard"
-              description="Designed and implemented a responsive sales dashboard using HTML for structure, CSS for styling, and JavaScript for interactivity. The dashboard adapts to various screen sizes, ensuring a consistent user experience across devices.Integrated a theme color change feature, allowing users to customize the dashboard’s appearance in real-time"
-              ghLink="https://github.com/satyamkurum/dashboard"       
+              title="Product Demand Forecasting"
+              description="The Demand Forecasting Project focuses on predicting future product demand using historical sales data, helping businesses optimize inventory, reduce costs, and improve supply chain efficiency.
+
+In this project, I worked on a retail dataset to forecast demand across different product categories and time periods. I began by performing data cleaning and preprocessing, handling missing values, outliers, and converting time-series data into a usable format."
+              ghLink="https://github.com/satyamkurum/Prodcut_Demand_Forecasting"       
             />
           </Col>
 

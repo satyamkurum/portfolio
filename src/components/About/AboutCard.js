@@ -8,27 +8,27 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Satyam Kurum </span>
-            from <span className="purple"> Karnataka, India.</span>
+            Hello Folks, myself <span className="purple">Satyam Kurum </span>
+            a passionate Data Driven Problem Solver <span className="purple"> from Bengaluru, India.</span>
             <br />
-            I am Senior year Student at National Institute of Technology Karnataka. <br />
+            I am Btech Graduated from National Institute of Technology Karnataka'25. <br />
             <br />
-            Apart from coding, I Love..
+            Apart from Coding, I Love..
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight />Listening Music
+              <ImPointRight />Data Science
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Series/Movies
+              <ImPointRight /> Working on ML project and Analytics
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading Books
+              <ImPointRight /> And adapt myself with latest Tech.
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Give me a mountain,I’ll climb it. Give me a Katy Perry song,I’ll sing it."{" "}
+            " Winter is not Coming, AI agents are."{" "}
           </p>
           <footer className="blockquote-footer">Louis Litt </footer>
         </blockquote>

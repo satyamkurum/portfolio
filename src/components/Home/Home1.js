@@ -19,20 +19,20 @@ function Home1() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I Love Coding, it gives a sense of satisfaction for the day, solving problems is really satisfying🤷‍♂️
+              I Love Technology, solving problem and adaptation with Cool Tech is really Amazing🤷‍♂️
               <br />
               <br />I works on programming language like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C++, Javascript, Python, R. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Projects on AI using NLP Transfomers and Hugging face. </b> and
+                Also worked on project of{" "}
                 <b className="purple">
-                 Cybersecurity
+                 Data Analysis and Product Analyst.
                 </b>
               </i>
               <br />
