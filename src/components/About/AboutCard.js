@@ -8,33 +8,42 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello Folks, myself <span className="purple">Satyam Kurum </span>
-            a passionate Data Driven Problem Solver <span className="purple"> from Bengaluru, India.</span>
+            Hey there! I'm <span className="purple">Satyam Kurum</span>, a Curious Mind and a Learner.
             <br />
-            I am Btech Graduated from National Institute of Technology Karnataka'25. <br />
             <br />
-            Apart from Coding, I Love..
+            I'm a B.Tech graduate from the <span className="purple">National Institute of Technology Karnataka (Class of 2025)</span>, currently based in the vibrant tech capital — <span className="purple">Bengaluru, India</span>.
+            <br />
+            <br />
+            My journey into technology began with a fascination for solving problems — and today, it fuels everything I do. From designing intelligent systems and building chatbots, to fine-tuning LLMs with LoRA, I’m passionate about blending AI with meaningful user experiences.
+            <br />
+            <br />
+            I believe in learning by building. Whether it's deploying a RAG chatbot, working with Pinecone & Gemini APIs, or launching GenAI apps on Hugging Face, I'm always excited to turn ideas into something real and useful.
+            <br />
+            <br />
+            Outside the terminal, I stay grounded by curiosity, community, and coffee ☕.
           </p>
+
           <ul>
             <li className="about-activity">
-              <ImPointRight />Data Science
+              <ImPointRight /> Crafting end-to-end AI & GenAI applications
             </li>
             <li className="about-activity">
-              <ImPointRight /> Working on ML project and Analytics
+              <ImPointRight /> Exploring the intersection of data, design & intelligence
             </li>
             <li className="about-activity">
-              <ImPointRight /> And adapt myself with latest Tech.
+              <ImPointRight /> Sharing knowledge, collaborating, and building in public
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            " Winter is not Coming, AI agents are."{" "}
+          <p style={{ color: "rgb(155 126 172)", fontStyle: "italic" }}>
+            "The future isn’t waiting. We’re building it — one prompt at a time."
           </p>
-          <footer className="blockquote-footer">Louis Litt </footer>
+          <footer className="blockquote-footer">Satyam Kurum</footer>
         </blockquote>
       </Card.Body>
     </Card>
   );
 }
+
 
 export default AboutCard;

@@ -19,36 +19,40 @@ function Home1() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I Love Technology, solving problem and adaptation with Cool Tech is really Amazing🤷‍♂️
+              I'm passionate about solving real-world problems using technology, especially where innovation meets impact. I enjoy learning by building, and adapting quickly to emerging tools and frameworks keeps the journey exciting.
               <br />
-              <br />I works on programming language like
+              <br />
+              I'm proficient in programming languages such as
               <i>
-                <b className="purple"> C++, Javascript, Python, R. </b>
+                <b className="purple"> C++, JavaScript, Python, and R</b>
               </i>
+              , and I love using them to turn ideas into working solutions.
               <br />
+            <br />
+
+       <b className="purple">
+     <a href="https://huggingface.co/spaces/satyamkurum/rag-chatbot" target="_blank" rel="noopener noreferrer">
+            RAG PDF Chatbot
+        </a>
+            </b>
+          <br />
+       <b className="purple">
+        <a href="https://huggingface.co/spaces/satyamkurum/reddit-persona-generator" target="_blank" rel="noopener noreferrer">
+           Reddit Persona Generator
+        </a>
+        </b>
+
+        <br />
+
+
               <br />
-              My field of Interest's are building new &nbsp;
+              When I’m not experimenting with GenAI or fine-tuning models, I build scalable apps using{" "}
+              <b className="purple">Node.js</b> and{" "}
               <i>
-                <b className="purple">Projects on AI using NLP Transfomers and Hugging face. </b> and
-                Also worked on project of{" "}
-                <b className="purple">
-                 Data Analysis and Product Analyst.
-                </b>
+                <b className="purple">modern JavaScript frameworks like React.js</b>
               </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+              , especially for deployment on platforms like{" "}
+              <b className="purple">Hugging Face Spaces</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -111,4 +115,5 @@ function Home1() {
     </Container>
   );
 }
+
 export default Home1;

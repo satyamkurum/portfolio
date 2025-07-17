@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import chatbot from "../../Assets/Projects/chatbot.png";
+import llm from "../../Assets/Projects/llm.jpg";
+import reddit from "../../Assets/Projects/reddit.png"
 
 function Projects() {
   return (
@@ -12,18 +15,51 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Works</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Projects where I applied AI, ML, and GenAI to build smart, real-world solutions.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatbot}
+              isBlog={false}
+              title="PDF-based RAG Chatbot"
+              description="A Retrieval-Augmented Generation (RAG) chatbot that answers user queries from uploaded PDFs using Gemini Pro API and Pinecone for vector search. Built with Streamlit and deployed on Hugging Face Spaces."
+              ghLink="https://huggingface.co/spaces/satyamkurum/rag-chatbot"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={llm}
+              isBlog={false}
+              title="LLM Fine-Tuning with LoRA"
+              description="Fine-tuned GPT-2 on custom datasets (motivational quotes, poetry, support chat) using PEFT + LoRA via Hugging Face. Includes tokenizer training, training logs, evaluation, and inference scripts."
+              ghLink="https://github.com/satyamkurum/my-lora-gpt2-app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={reddit}
+              isBlog={false}
+              title="Reddit User Persona Generator"
+              description="Uses LangChain and PRAW to analyze a Reddit user's post/comment history and generate a persona summary using LLMs. Containerized with Docker and deployed using Streamlit on Hugging Face."
+              ghLink="https://github.com/satyamkurum/reddit_persona_generator"
+            />
+          </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Ai Powered Resume Shortlisting"
-              description="Put Resume and Job Descrition and check whether this profile is fit or not for the job role."
+              title="AI-Powered Resume Shortlisting"
+              description="An NLP-based pipeline that evaluates candidate resumes against job descriptions using sentence embeddings and cosine similarity. Accelerates screening in HR workflows."
               ghLink="https://github.com/satyamkurum/AIpowered_Resume_Shortlisting"
             />
           </Col>
@@ -32,10 +68,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Customer_Churn_Prediction"
-              description="The Customer Churn Prediction System is a machine learning project aimed at identifying customers who are likely to stop using a service or subscription. The goal is to help businesses proactively address churn and improve customer retention."
+              title="Customer Churn Prediction"
+              description="Developed a supervised ML system that predicts customer churn risk from telecom data. Used feature selection, model tuning, and evaluation to improve retention strategies."
               ghLink="https://github.com/satyamkurum/Customer_Churn_Prediction"
-             
             />
           </Col>
 
@@ -44,14 +79,15 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Product Demand Forecasting"
-              description="The Demand Forecasting Project focuses on predicting future product demand using historical sales data, helping businesses optimize inventory, reduce costs, and improve supply chain efficiency.
-
-In this project, I worked on a retail dataset to forecast demand across different product categories and time periods. I began by performing data cleaning and preprocessing, handling missing values, outliers, and converting time-series data into a usable format."
-              ghLink="https://github.com/satyamkurum/Prodcut_Demand_Forecasting"       
+              description="Built a time-series forecasting model to predict multi-category product demand. Helped optimize inventory and supply chain decisions using historical sales trends."
+              ghLink="https://github.com/satyamkurum/Prodcut_Demand_Forecasting"
             />
           </Col>
 
-       
+          
+
+          
+          
         </Row>
       </Container>
     </Container>
@@ -59,3 +95,4 @@ In this project, I worked on a retail dataset to forecast demand across differen
 }
 
 export default Projects;
+
