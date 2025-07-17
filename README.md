@@ -23,9 +23,10 @@ This is a personal portfolio website built to showcase my projects, skills, and 
    ```bash
    git clone https://github.com/satyamkurum/portfolio.git
    cd portfolio
-  bash```
+   npm install
+   npm start
+  ```
 
-  npm install
-  npm start
 
+ 
 
