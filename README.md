@@ -18,14 +18,15 @@ This is a personal portfolio website built to showcase my projects, skills, and 
 
 
 ## 📦 Setup Instructions
-
-1. **Clone the repository**
    ```bash
    git clone https://github.com/satyamkurum/portfolio.git
    cd portfolio
    npm install
    npm start
-
+   ```
+ ## About me
+ 
+I’m a 2025 B.Tech graduate from NITK Surathkal with a strong interest in ML, Data Science, and Generative AI. I'm actively seeking opportunities to apply my skills in impactful projects.
 
  
 
