@@ -25,7 +25,6 @@ This is a personal portfolio website built to showcase my projects, skills, and 
    cd portfolio
    npm install
    npm start
-  ```
 
 
  
