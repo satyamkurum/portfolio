@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.policy-text {
+  color: #FFFFFF !important; /* Vibrant white */
+}
+
+.policy-text h3 {
+  color: #FFFFFF !important;
+}
+
+.policy-text li {
+  color: #FFFFFF !important;
+}
+
+
+.service-feature {
+  text-align: left;
+  list-style-type: "✓ "; /* Checkmark prefix */
+  padding-left: 5px;
+  color: #c770f0; /* Purple accent color */
+}
+
+.service-price {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: white;
+  margin: 15px 0;
+}

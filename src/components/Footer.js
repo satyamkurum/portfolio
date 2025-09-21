@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom"; // Import Link
 
 function Footer() {
   let date = new Date();
@@ -44,6 +45,27 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
+            </li>
+          </ul>
+        </Col>
+      </Row>
+      <Row>
+        <Col md={12} className="footer-policy-links">
+          <ul className="policy-list">
+            <li>
+              <Link to="/t&c">Terms & Conditions</Link>
+            </li>
+            <li>
+              <Link to="/privacy_policy">Privacy Policy</Link>
+            </li>
+            <li>
+              <Link to="/refund_policy">Refund Policy</Link>
+            </li>
+            <li>
+              <Link to="/return_policy">Return Policy</Link>
+            </li>
+            <li>
+              <Link to="/shipping_policy">Shipping Policy</Link>
             </li>
           </ul>
         </Col>
