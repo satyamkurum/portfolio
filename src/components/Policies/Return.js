@@ -60,6 +60,13 @@ function Return() {
             </p>
           </Col>
         </Row>
+         <h3>Contact Details</h3>
+            <p>
+              Email - satyamkurum@gmail.com
+            </p>
+            <p>
+              Phone - +917999325282
+            </p>
       </Container>
     </Container>
   );

@@ -30,7 +30,7 @@ function Services() {
                 </ul>
                 <div className="service-price">₹9,999</div>
                 <Button variant="primary" href="#" disabled>
-                  Get a Quote
+                
                 </Button>
               </Card.Body>
             </Card>
@@ -52,7 +52,7 @@ function Services() {
                 </ul>
                 <div className="service-price">₹24,999</div>
                 <Button variant="primary" href="#" disabled>
-                  Buy now
+              
                 </Button>
               </Card.Body>
             </Card>
@@ -74,7 +74,7 @@ function Services() {
                 </ul>
                 <div className="service-price">₹39,999</div>
                 <Button variant="primary" href="#" disabled>
-                  Get a Quote
+                
                 </Button>
               </Card.Body>
             </Card>

@@ -23,6 +23,11 @@ function Refund() {
             <p>
               We DO NOT provide any Refunds.
             </p>
+            <h3>Contact Details</h3>
+            <p>
+              Email - satyamkurum@gmail.com
+              Phone - 7999325382
+            </p>
 
           </Col>
         </Row>

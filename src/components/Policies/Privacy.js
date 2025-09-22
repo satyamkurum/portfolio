@@ -197,8 +197,21 @@ function Privacy() {
               changes to the Privacy Policy, in the manner as may be required
               under applicable laws.
             </p>
+            <h3>Contact Details</h3>
+            <p>
+              Email - satyamkurum@gmail.com
+              Phone - 7999325382
+            </p>
+      
           </Col>
         </Row>
+         <h3>Contact Details</h3>
+            <p>
+              Email - satyamkurum@gmail.com
+            </p>
+            <p>
+              Phone - +917999325282
+            </p>
       </Container>
     </Container>
   );
