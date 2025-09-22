@@ -1,9 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
-import Home2 from "./Home1";
-import Type from "./Type";
+import Particle from "../../components/Particle";
+import Home2 from "../../components/Home/Home1";
+import Type from "../../components/Home/Type";
 
 function Home() {
   return (
@@ -12,7 +11,7 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col md={12} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -29,15 +28,6 @@ function Home() {
                 <Type />
               </div>
             </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Col>
           </Row>
         </Container>
       </Container>
@@ -47,3 +37,4 @@ function Home() {
 }
 
 export default Home;
+

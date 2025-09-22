@@ -1,65 +1,174 @@
+/* --------- IMPORTS --------- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+/* --------- SCROLLBAR --------- */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(199, 112, 240, 0.6);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(199, 112, 240, 0.8);
+}
+
+/* --------- GENERAL STYLES & BODY --------- */
+body {
+  font-family: "Inter", sans-serif !important;
+  color: white !important;
+  background-color: #a3a114 !important; /* Fallback color */
+  overflow-y: scroll;
+}
+
+/* --------- UTILITY & HIGHLIGHTS --------- */
+.purple {
+  color: #c770f0 !important;
+}
+
 .App {
-  text-align: center;
+  z-index: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* --------- BUTTONS --------- */
+.btn-primary {
+  background-color: transparent !important;
+  border: 1px solid #c770f0 !important;
+  color: #c770f0 !important;
+  transition: all 0.3s ease-in-out !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-primary:hover {
+  background-color: #c770f0 !important;
+  color: white !important;
+  box-shadow: 0 0 15px rgba(199, 112, 240, 0.6);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
-.App-link {
-  color: #61dafb;
+/* --------- GLASSMORPHISM CARDS --------- */
+.project-card-view, .quote-card-view {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 15px !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+  transition: all 0.3s ease-in-out !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-card-view:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 0 25px rgba(199, 112, 240, 0.3);
 }
 
-.policy-text {
-  color: #FFFFFF !important; /* Vibrant white */
+/* --------- POLICY PAGES & SERVICES STYLING --------- */
+.policy-text, .service-price, .service-feature {
+  color: #e6e6e6 !important;
 }
 
-.policy-text h3 {
-  color: #FFFFFF !important;
-}
-
-.policy-text li {
-  color: #FFFFFF !important;
-}
-
-
-.service-feature {
-  text-align: left;
-  list-style-type: "✓ "; /* Checkmark prefix */
-  padding-left: 5px;
-  color: #c770f0; /* Purple accent color */
+.policy-text h1, .policy-text h3 {
+  color: white !important;
 }
 
 .service-price {
-  font-size: 1.4em;
+  font-size: 1.5rem;
   font-weight: bold;
-  color: white;
-  margin: 15px 0;
+  color: #c770f0 !important;
+  margin-bottom: 20px;
+}
+
+.service-feature {
+  padding-left: 10px;
+}
+
+.particle-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('https://ik.imagekit.io/bjixlk7pis/tengyart-MPnaAHRj6J0-unsplash.jpg?updatedAt=1758523352566');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(0.8); /* Darkens image slightly for better text contrast */
+}
+
+/* --- TEXT & ACCENT COLORS FOR LIGHT BACKGROUND --- */
+
+/* Main heading and body text */
+.home-about-description h1,
+.home-about-body,
+.home-about-social h1,
+.home-about-social p {
+  color: #333d42 !important; /* A professional, dark charcoal color */
+}
+
+/* Accent color for highlights and links */
+.purple {
+  color: #007bff !important; /* A vibrant and classy blue */
+}
+
+/* Ensure links with the purple class are also blue */
+a.purple {
+  color: #007bff !important;
+}
+
+/* Social media icon colors */
+.icon-colour {
+  color: #333d42 !important;
+}
+
+.social-icons a:hover {
+  color: #d63c3c !important; /* Icons turn blue on hover */
+}
+
+/* --- Social Section Styles (Home1.js) --- */
+
+/* Heading ("FIND ME ON") and paragraph text */
+.home-about-social h1,
+.home-about-social p {
+  color: #073d1e !important; /* A professional, dark black */
+}
+
+/* This ensures the word "connect" is also dark black */
+.home-about-social .purple {
+  color: #ff00aa !important;
+}
+
+/* Social media links */
+.home-about-social-links .social-icons a {
+  color: #5e1815 !important; /* A classy, vibrant green */
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect for social links */
+.home-about-social-links .social-icons a:hover {
+  color: #070707 !important; /* A slightly darker green on hover */
+  text-decoration: underline;
+}
+
+.social-icons {
+  background: transparent;
+  display: inline-block; /* Helps with spacing */
+  margin: 0 5px;
+}
+
+.logo {
+  height: 48px; /* Adjusted to a smaller size */
+  width: 48px;  /* Ensures width and height are exactly equal */
+  border-radius: 50%; /* Creates the circular shape */
+  background-color: #7e87a3; /* White background for visibility */
+  object-fit: contain; /* Fits the logo cleanly inside */
+ /* Adjusts the space around the logo */
+  box-sizing: border-box; /* Ensures padding doesn't distort the shape */
 }

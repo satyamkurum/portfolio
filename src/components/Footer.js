@@ -61,12 +61,6 @@ function Footer() {
             <li>
               <Link to="/refund_policy">Refund Policy</Link>
             </li>
-            <li>
-              <Link to="/return_policy">Return Policy</Link>
-            </li>
-            <li>
-              <Link to="/shipping_policy">Shipping Policy</Link>
-            </li>
           </ul>
         </Col>
       </Row>

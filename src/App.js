@@ -8,8 +8,6 @@ import Footer from "./components/Footer";
 import Terms from "./components/Policies/Terms";
 import Privacy from "./components/Policies/Privacy";
 import Refund from "./components/Policies/Refund";
-import Return from "./components/Policies/Return";
-import Shipping from "./components/Policies/Shipping";
 import Services from "./components/Services/Services";
 import {
   BrowserRouter as Router,
@@ -47,8 +45,6 @@ function App() {
           <Route path="/t&c" element={<Terms />} />
           <Route path="/privacy_policy" element={<Privacy />} />
           <Route path="/refund_policy" element={<Refund />} />
-          <Route path="/return_policy" element={<Return />} />
-          <Route path="/shipping_policy" element={<Shipping />} />
           <Route path="/services" element={<Services />} />
         </Routes>
         <Footer />

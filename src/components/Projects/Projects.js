@@ -29,7 +29,7 @@ function Projects() {
               isBlog={false}
               title="PDF-based RAG Chatbot"
               description="A Retrieval-Augmented Generation (RAG) chatbot that answers user queries from uploaded PDFs using Gemini Pro API and Pinecone for vector search. Built with Streamlit and deployed on Hugging Face Spaces."
-              ghLink="https://huggingface.co/spaces/satyamkurum/rag-chatbot"
+              ghLink=""
             />
           </Col>
 
@@ -39,7 +39,7 @@ function Projects() {
               isBlog={false}
               title="LLM Fine-Tuning with LoRA"
               description="Fine-tuned GPT-2 on custom datasets (motivational quotes, poetry, support chat) using PEFT + LoRA via Hugging Face. Includes tokenizer training, training logs, evaluation, and inference scripts."
-              ghLink="https://github.com/satyamkurum/my-lora-gpt2-app"
+              ghLink=""
             />
           </Col>
 
@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Reddit User Persona Generator"
               description="Uses LangChain and PRAW to analyze a Reddit user's post/comment history and generate a persona summary using LLMs. Containerized with Docker and deployed using Streamlit on Hugging Face."
-              ghLink="https://github.com/satyamkurum/reddit_persona_generator"
+              ghLink=""
             />
           </Col>
 
@@ -60,7 +60,7 @@ function Projects() {
               isBlog={false}
               title="AI-Powered Resume Shortlisting"
               description="An NLP-based pipeline that evaluates candidate resumes against job descriptions using sentence embeddings and cosine similarity. Accelerates screening in HR workflows."
-              ghLink="https://github.com/satyamkurum/AIpowered_Resume_Shortlisting"
+              ghLink=""
             />
           </Col>
 
@@ -70,7 +70,7 @@ function Projects() {
               isBlog={false}
               title="Customer Churn Prediction"
               description="Developed a supervised ML system that predicts customer churn risk from telecom data. Used feature selection, model tuning, and evaluation to improve retention strategies."
-              ghLink="https://github.com/satyamkurum/Customer_Churn_Prediction"
+              ghLink=""
             />
           </Col>
 
@@ -80,7 +80,7 @@ function Projects() {
               isBlog={false}
               title="Product Demand Forecasting"
               description="Built a time-series forecasting model to predict multi-category product demand. Helped optimize inventory and supply chain decisions using historical sales trends."
-              ghLink="https://github.com/satyamkurum/Prodcut_Demand_Forecasting"
+              ghLink=""
             />
           </Col>
 

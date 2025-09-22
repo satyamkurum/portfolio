@@ -28,7 +28,7 @@ function Services() {
                   <li className="service-feature">Mobile-Responsive Design</li>
                   <li className="service-feature">Contact Form</li>
                 </ul>
-                <div className="service-price">Starting from ₹10,000</div>
+                <div className="service-price">₹9,999</div>
                 <Button variant="primary" href="#" disabled>
                   Get a Quote
                 </Button>
@@ -50,7 +50,7 @@ function Services() {
                   <li className="service-feature">Unlimited Pages & Blog</li>
                   <li className="service-feature">SEO Friendly</li>
                 </ul>
-                <div className="service-price">Starting from ₹25,000</div>
+                <div className="service-price">₹24,999</div>
                 <Button variant="primary" href="#" disabled>
                   Buy now
                 </Button>
@@ -72,7 +72,7 @@ function Services() {
                   <li className="service-feature">Product & Order Management</li>
                   <li className="service-feature">Shopping Cart</li>
                 </ul>
-                <div className="service-price">Starting from ₹40,000</div>
+                <div className="service-price">₹39,999</div>
                 <Button variant="primary" href="#" disabled>
                   Get a Quote
                 </Button>
